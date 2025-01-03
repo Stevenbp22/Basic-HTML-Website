@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuList {
+    display: flex;
+    list-style-type: none;
+}
